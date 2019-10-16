@@ -1,0 +1,107 @@
+html, body{
+	-webkit-user-select:none;
+	user-select:none;
+	-moz-user-select:none;
+	-o-user-select:none;
+	background: #fbfbfb !important
+}
+.box-slider{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: white;
+	box-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.preloader{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 9999;
+}
+.preloader img{
+	position: absolute;
+	width: 5%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	vertical-align: middle;
+}
+.clr-grey{
+	color: grey !important
+}
+.clr-grey a{
+	color: grey !important
+}
+.clr-white{
+	color: white !important
+}
+.clr-prim{
+	color: #da3d36 !important
+}
+.bg-prim{
+	background: #da3d36 !important
+}
+.bg-black{
+	background: black !important
+}
+.bg-white{
+	background: white !important;
+}
+.swiper-pagination-bullet-active{
+	width: 25px !important;
+	background: black !important;
+	border-radius: 10px !important;
+}
+.no-pad{
+	padding: 0 !important;
+}
+.btn{
+	border-radius: 0 !important
+}
+.btn-next{
+	border-bottom-right-radius: 50px !important;
+	border-top-right-radius: 50px !important;
+}
+.btn-prev{
+	border-bottom-left-radius: 50px !important;
+	border-top-left-radius: 50px !important;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
+	background: black !important;
+	color: white !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background: black !important;
+	color: white !important;
+	border: none !important;
+}
+#slide-detail{
+	border-bottom: 2px solid #da3d36;
+	height: auto;
+}
+
+#slide-detail .swiper-slide{
+	border-bottom: 1px solid #bfbfbf;
+}
+#slide-thumb{
+	margin-top: 15px
+}
+#slide-thumb .swiper-slide {
+	opacity: 0.4 !important;
+	cursor: pointer;
+}
+#slide-thumb .swiper-slide-thumb-active {
+	opacity: 1 !important;
+}
+@media only screen and (max-width: 768px){
+	.tooltip{
+		display: none !important;
+	}
+	.preloader img{
+		width:20%;
+	}
+}

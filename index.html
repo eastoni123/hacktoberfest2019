@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Komik Ucup | Baca Komik Online</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Komik tentang keseharian si Ucup" />
+	<meta name="theme-color" content="#da3d36" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+	<meta name="apple-mobile-web-app-title" content="Komik Ucup" />
+	<link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<!-- Add to home screen for Windows-->
+	<meta name="msapplication-TileImage" content="images/icons/icon-128x128.png" />
+	<meta name="msapplication-TileColor" content="#000000" />
+	<script type="text/javascript" src="sw-register.js"></script>
+	<!-- CSS -->
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="files/css/main.css">
+	<link rel="stylesheet" type="text/css" href="files/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="files/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="files/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="files/css/material-design-iconic-font.min.css">
+</head>
+<body>
+	<div class="preloader">
+		<img src="images/icons/icon-512x512.png" class="animated infinite bounce">
+	</div>
+	<div class="container">
+		<div class="row" style="margin-top: 5%">
+			<img src="files/img/ucup-body.png" class="col-md-2 col-md-offset-5 col-xs-4 col-xs-offset-4">
+		</div>
+		<div class="row" style="margin-top: 5%">
+			<div class="col-md-12 col-xs-12">
+				<!-- IMAGE VIEW -->
+				<div class="col-md-8 col-md-offset-2 col-xs-12 box-slider bordered">
+					<!-- SLIDE VIEW -->
+					<div class="swiper-container col-md-12 col-xs-12" id="slide-detail" data-toggle="tooltip" data-placement="right" title="Double click to zoom">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/1.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/2.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/3.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/4.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/5.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/6.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/7.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-zoom-container">
+									<img src="files/img/komik/8.png" class="col-md-12 col-xs-12 no-pad">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SLIDE THUMBNAIL -->
+					<div class="swiper-container col-md-12 col-xs-12" id="slide-thumb">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="files/img/komik/1.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+							<div class="swiper-slide">
+								<img src="files/img/komik/2.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+							<div class="swiper-slide">
+								<img src="files/img/komik/3.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+							<div class="swiper-slide">
+								<img src="files/img/komik/4.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+							<div class="swiper-slide">
+								<img src="files/img/komik/5.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+							<div class="swiper-slide">
+								<img src="files/img/komik/6.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+							<div class="swiper-slide">
+								<img src="files/img/komik/7.png" class="col-md-12 col-xs-12 no-pad">
+							</div>
+						</div>
+					</div>
+
+					<!-- NAVIGATION -->
+					<span class="pager col-md-12 col-xs-12 no-pad">
+						<a href="#" class="btn-prev bg-prim btn clr-white"><i class="zmdi zmdi-chevron-left"></i>&nbsp;&nbsp;&nbsp;Prev</a>
+						<p class="bg-prim clr-white btn"><span class="number-image "></span></p>
+						<a href="#" class="btn-next bg-prim btn clr-white">Next&nbsp;&nbsp;&nbsp;<i class="zmdi zmdi-chevron-right"></i></a>
+					</span>
+				</div>
+				<!-- END IMAGE VIEW -->
+			</div>
+		</div>
+	</div>
+
+
+	<!-- JS -->
+	<script type="text/javascript" src="files/js/jquery.min.js"></script>
+	<script type="text/javascript" src="files/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="files/js/swiper.min.js"></script>
+	<script type="text/javascript" src="files/js/main.js"></script>
+</body>
+</html>
